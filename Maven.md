@@ -8,6 +8,9 @@ mvn clean清除
 
 mvn package打包
 
+# Maven自动部署到tomcat
+https://www.cnblogs.com/amosli/p/6086515.html
+
 # Maven的Q&A
 
 **Q:** No compiler is provided in this environment. Perhaps you are running on a JRE rather than a JDK
