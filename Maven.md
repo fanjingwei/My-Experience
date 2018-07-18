@@ -8,6 +8,12 @@ mvn clean清除
 
 mvn package打包
 
+mvn tomcat7:redeploy
+
+mvn tomcat7:deploy
+
+mvn tomcat7:undeploy
+
 # Maven自动部署到tomcat
 https://www.cnblogs.com/amosli/p/6086515.html
 
