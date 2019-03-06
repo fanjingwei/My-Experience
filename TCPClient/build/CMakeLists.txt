@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.2)
+PROJECT(TCPClient)
+
+SET(ROOT ${CMAKE_CURRENT_SOURCE_DIR}/../)
+
+INCLUDE_DIRECTORIES(
+${ROOT}/src/include
+)
+
+AUX_SOURCE_DIRECTORY(${ROOT}/code files)
+
+ADD_EXECUTABLE(${PROJECT_NAME} ${files})
+
