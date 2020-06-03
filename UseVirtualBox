@@ -1,0 +1,5 @@
+Q：VirtualBox安装增强功能时显示：Oops! There was a problem running this software. Unable to locate program
+A：修改文件/etc/fstab：从“/dev/sr0    /media/cdrom0    udf,iso9660    user,noauto         0    0”到“/dev/sr0    /media/cdrom0    udf,iso9660    user,noauto,exec    0    0”，增加exec
+
+Q：VirtualBox显示无法加载虚拟光驱
+A：先弹出光驱再重新加载
